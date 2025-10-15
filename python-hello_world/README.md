@@ -1,0 +1,1 @@
+This is directory that has hello work activity.
