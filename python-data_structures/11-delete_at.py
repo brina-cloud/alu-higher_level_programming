@@ -3,6 +3,5 @@ def delete_at(my_list=[], idx=0):
     if idx < 0 and idx >= len(my_list):
         return my_list
     else:
-        my_list = my_list.copy()
-        delete_at = my_list[:idx] + my_list[idx + 1:]
-    return delete_at
+        my_list[:] = my_list[:idx] + my_list[idx + 1:]
+    return my_list
