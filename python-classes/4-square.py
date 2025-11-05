@@ -5,7 +5,7 @@
 class Square:
     """python3 -c 'print(__import__("my_module").MyClass.__doc__)'"""
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         self.__size = size
     @property
     def size(self):
@@ -21,4 +21,3 @@ class Square:
 
     def area(self):
         return self.__size ** 2
-
