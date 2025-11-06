@@ -6,12 +6,13 @@ class Rectangle:
     """python3 -c 'print(__import__("my_module").MyClass.__doc__)'"""
 
     def __init__(self, width=0, height=0):
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
         return self.__width
+
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -23,6 +24,7 @@ class Rectangle:
     @property
     def height(self):
         return self.__height
+
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
