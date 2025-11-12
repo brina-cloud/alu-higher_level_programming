@@ -7,9 +7,9 @@ class Square(Rectangle):
     """python3 -c 'print(__import__("my_module").MyClass.__doc__)'"""
 
     def __init__(self, size):
-       self.__size = size
-       self.integer_validator("size", size)
-       super().__init__(size, size)
+        self.__size = size
+        self.integer_validator("size", size)
+        super().__init__(size, size)
     def area(self):
-       """python3 -c 'print(__import__("my_module").my_function.__doc__)'"""
-       return self.__size * self.__size
+        """python3 -c 'print(__import__("my_module").my_function.__doc__)'"""
+        return self.__size * self.__size
