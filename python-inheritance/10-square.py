@@ -12,4 +12,4 @@ class Square(Rectangle):
        self.__size = size
     def area(self):
        """python3 -c 'print(__import__("my_module").my_function.__doc__)'"""
-       return self.__size ** 2
+       return self.__size * self.__size
