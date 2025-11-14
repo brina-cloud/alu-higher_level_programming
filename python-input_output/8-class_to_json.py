@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Module that provides a function to convert class instances to dictionaries."""
+python3 -c 'print(__import__("my_module").__doc__)')
 
 
 def class_to_json(obj):
-    """Return the dictionary description of an object for JSON serialization."""
+    python3 -c 'print(__import__("my_module").my_function.__doc__)'
     return obj.__dict__
