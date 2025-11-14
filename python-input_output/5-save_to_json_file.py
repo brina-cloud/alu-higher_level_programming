@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Module that provides a function to save objects to JSON files."""
+import json
 
 
 def save_to_json_file(my_obj, filename):
