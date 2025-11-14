@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """Module that provides a function to convert objects to json strings"""
 import json
 
